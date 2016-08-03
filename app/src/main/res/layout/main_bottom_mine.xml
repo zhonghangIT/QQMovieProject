@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_weight="1"
+    android:id="@+id/relativie_mine"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageview_main_bottom_mine"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/main_bottom_mine_seletor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textview_main_bottom_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview_main_bottom_mine"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/main_bottom_text"
+        android:text="@string/mine" />
+</RelativeLayout>

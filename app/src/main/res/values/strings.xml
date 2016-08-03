@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QQMovieProject</string>
+    <string name="mine">我的</string>
+    <string name="movie">电影</string>
+    <string name="discover">发现</string>
+    <string name="show">演出</string>
+</resources>
